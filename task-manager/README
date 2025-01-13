@@ -1,0 +1,52 @@
+# Task Management Application
+
+## Overview
+A full-stack Kanban-style task management application built with the MERN stack (MongoDB, Express.js, React, Node.js). The application allows users to organize and track their tasks through a drag-and-drop interface.
+
+## Features
+- **User Authentication**
+  - Secure registration and login system
+  - JWT-based authentication
+  - Protected routes for authenticated users
+
+- **Task Management**
+  - Create, read, update, and delete tasks
+  - Drag-and-drop interface for task status updates
+  - Three status columns: To Do, In Progress, and Completed
+  - Task prioritization system
+  - Due date tracking
+  - Task filtering and search capabilities
+
+- **User Interface**
+  - Modern, responsive design using Material-UI
+  - Intuitive drag-and-drop functionality
+  - Visual indicators for task priority and due dates
+  - Clean and professional layout
+
+## Technical Stack
+- **Frontend**
+  - React.js
+  - Material-UI for styling
+  - React Beautiful DND for drag-and-drop
+  - React Router for navigation
+  - JWT for authentication
+
+- **Backend**
+  - Node.js
+  - Express.js
+  - MongoDB for database
+  - Mongoose for data modeling
+  - JWT for authentication
+
+## Getting Started
+1. Clone the repository
+2. Install MongoDB and ensure it's running
+3. Install dependencies:
+   ```bash
+   # Install backend dependencies
+   cd server
+   npm install
+
+   # Install frontend dependencies
+   cd ../client
+   npm install
